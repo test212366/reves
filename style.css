@@ -1,0 +1,31 @@
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.items {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.buttons button {
+	margin: 10px;
+}
+.random {
+	position: absolute;
+	top: 100%;
+	left: 43%;
+}
+body {
+	position: relative;
+}
+.card {
+	display: none;
+}
+.card.active {
+	display: block;
+}
